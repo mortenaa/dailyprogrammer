@@ -66,7 +66,11 @@ class Graph {
     Node start = nodes.lookup(s);
     Node end = nodes.lookup(e);
     start.distance = 0;
-    var queue = new SplayTreeMap<Node, Node>.fromIterable(nodes.toList(), {});
+    var queue = new SplayTreeMap<Node, Node>.fromIterable(nodes.toList(),
+                    compare: (n1, n2) => n1.distance.compareTo(n2.distance));
+    queue.forEach((n1, _) {
+      print('${n1.label} ${n1.distance}');
+    });
     return null;
   }
   
