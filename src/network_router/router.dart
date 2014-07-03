@@ -9,7 +9,8 @@ class Edge {
     n1.edges.add(this);
     n2.edges.add(this);
   }
-  bool operator ==(other) => (n1 == other.n1 && n2 == other.n2) || (n1 == other.n2 && n2 == other.n1);
+  bool operator ==(other) => (n1 == other.n1 && n2 == other.n2) || 
+                             (n1 == other.n2 && n2 == other.n1);
   int get hashCode => n1.hashCode + n2.hashCode;
 }
 
@@ -93,10 +94,10 @@ class Graph {
       current.visited = true;
       current = queue.firstKey();
     }
-    
+
     var path = [];
     var n = end;
-    while(n != null) {
+    while (n != null) {
       path.add(n);
       n = n.previous;
     }
