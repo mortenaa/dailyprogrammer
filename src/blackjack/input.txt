@@ -1,0 +1,17 @@
+3
+Alice: Ace of Diamonds, Ten of Clubs
+Bob: Three of Hearts, Six of Spades, Seven of Spades
+Chris: Ten of Hearts, Three of Diamonds, Jack of Clubs
+4
+Alice: Ace of Diamonds, Ten of Clubs
+Bob: Three of Hearts, Six of Spades, Seven of Spades
+Chris: Ten of Hearts, Three of Diamonds, Jack of Clubs
+David: Two of Hearts, Three of Clubs, Three of Hearts, Five of Hearts, Six of Hearts
+3
+Alice: Ace of Diamonds, Ace of Spades, Ace of Clubs, Ace of Hearts
+Bob: Three of Hearts, Six of Spades, Seven of Spades, Ten of Diamonds
+Chris: Ten of Hearts, Three of Diamonds
+3
+Alice: Ace of Diamonds, Ten of Clubs, Five of Hearts, Four of Spades
+Bob: Three of Hearts, Six of Spades, Seven of Spades, Ten of Diamonds
+Chris: Ten of Hearts, Three of Diamonds
